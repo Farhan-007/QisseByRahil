@@ -1,4 +1,25 @@
 .Landing-wrapper {
-    padding-top: 100px;
-    height: 200vh;
+    padding-top: 200px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #001a28, #001824, #000e17);
+    background-size: 100%;
+}
+
+.title-image {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: 500px;
+    width: 350px;
+}
+
+.title-image .grayimg {
+    filter: contrast(120%) grayscale(100%);
+}
+
+.title-image .colimg {
+    position: absolute;
+    right: -2.5rem;
+    top: 10%;
+    bottom: 10%;
 }

@@ -1,8 +1,6 @@
 import { Route, Routes, HashRouter, BrowserRouter } from "react-router-dom";
 import CommonContainer from "./CommonContainer";
 import LandingPage from "./pages/LandingPage";
-import Login from "./pages/auth/Login";
-import Signup from "./pages/auth/Signup";
 function App() {
   return (
     <>
@@ -13,16 +11,6 @@ function App() {
               <CommonContainer>
                 <LandingPage />
               </CommonContainer>
-            } />
-
-          <Route path="/login"
-            element={
-              <Login />
-            } />
-
-          <Route path="/signup"
-            element={
-              <Signup />
             } />
 
         </Routes>

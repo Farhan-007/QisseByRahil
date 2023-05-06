@@ -1,0 +1,48 @@
+.contact-btn {
+    animation: round 5s linear infinite;
+    border: 5px solid #001a28;
+    border-radius: 50%;
+}
+.contact-btn h1 span {
+    /* font: 26px Monaco, MonoSpace; */
+    height: 60px;
+    position: absolute;
+    width: 20px;
+    right: 43%;
+    top: 10px;
+    transform-origin: bottom center;
+}
+
+@keyframes round {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.char1 { transform: rotate(15deg); }
+.char2 { transform: rotate(30deg); }
+.char3 { transform: rotate(45deg); }
+.char4 { transform: rotate(60deg); }
+.char5 { transform: rotate(75deg); }
+.char6 { transform: rotate(90deg); }
+.char7 { transform: rotate(105deg); }
+.char8 { transform: rotate(120deg); }
+.char9 { transform: rotate(135deg); }
+.char10 { transform: rotate(150deg); }
+.char11 { transform: rotate(165deg); }
+.char12 { transform: rotate(180deg); }
+.char13 { transform: rotate(195deg); }
+.char14 { transform: rotate(210deg); }
+.char15 { transform: rotate(225deg); }
+.char16 { transform: rotate(240deg); }
+.char17 { transform: rotate(255deg); }
+.char18 { transform: rotate(270deg); }
+.char19 { transform: rotate(285deg); }
+.char20 { transform: rotate(300deg); }
+.char21 { transform: rotate(315deg); }
+.char22 { transform: rotate(330deg); }
+.char23 { transform: rotate(345deg); }
+.char24 { transform: rotate(360deg); }
