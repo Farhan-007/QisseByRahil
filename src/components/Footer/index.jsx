@@ -1,43 +1,40 @@
 // import { Facebook, FacebookOutlined, Instagram, LinkedIn, Gmail, Mail} from '@mui/icons-material'
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { NavLink } from 'react-router-dom'
 import './style.css'
 
 const Footer = () => {
     return (
         <>
-            <footer className="footer flex flex-col items-center justify-center border-t-2 border-[#bbbbbb] md:border-0 smallText shadow-2xl">
-                <div className="container max-w-[1200px] flex justify-between md:items-center flex-col-reverse md:flex-row px-5">
-                    <div className="footer-logo py-32 md:py-10 ">
-                        <img src="assets/logo2.png" className='w-[200px] md:w-[200px] ' alt="" />
+            <footer className="footer flex flex-col items-center justify-center  text-[#7092a1] smallText shadow-2xl px-5">
+                <div className="container max-w-[1200px] flex flex-col gap-5 py-10 border-t-4 border-[#0d3f52]">
+                    <div className="flex items-center gap-2 md:gap-5">
+                        <h1 className=" md:text-5xl text-xl">rahilkhan9770027294@gmail.com</h1>
+                        <button className="email-button text-xl md:text-6xl text-[#ff912a] border-2 rounded-[50%] border-[#ff912a] p-2 ">
+                            <a className='flex items-center' href="mailto:rahilkhan9770027294@gmail.com">
+                                <ArrowOutwardIcon fontSize='inherit' />
+                            </a>
+                        </button>
                     </div>
-                    <div className="footer-div flex flex-col">
-                        <div className="footer-col">
-                            <ul className='flex flex-col md:flex-row md:gap-5 '>
-                                <li><a href="#">Contests</a></li>
-                                {/* <li><a href="#">Performances</a></li>
-                                <li><a href="#">Tasks</a></li> */}
-                                <li><a href="#">Program</a></li>
-                                <li><a href="#">Upcoming Contests</a></li>
-                                <li><a href="#">Participation </a></li>
-                                <li><a href="#">FAQs</a></li>
+                    <div className="flex items-center">
+                        <div className="navlinks">
+                            <ul className="flex md:flex-row text-xs md:text-sm md:font-semibold md:items-center gap-2 md:gap-16">
+                                <li className="">
+                                    <a href="" className="">About</a>
+                                </li>
+                                <li className="">
+                                    <a href="" className="">Gallery</a>
+                                </li>
+                                <li className="">
+                                    <a href="" className="">Exhibitions</a>
+                                </li>
+                                <li className="">
+                                    <a href="" className="">Contact</a>
+                                </li>
                             </ul>
                         </div>
-                        <div className="social-links flex gap-5 py-8">
+                        <div className="social-links">
 
-                            {/* <a href="https://www.facebook.com/profile.php?id=100091230918150" target="_blank"> <Facebook fontSize='inherit'/> </a>
-                            <a href="mailto:gigacode17@gmail.com" target="_blank"> <Mail fontSize='inherit' /> </a>
-                            <a href="https://www.instagram.com/gigacode17/" target="_blank"> <Instagram fontSize='inherit' /> </a>
-                            <a href="https://www.linkedin.com/company/gigacode/" target="_blank"> <LinkedIn fontSize='inherit' /> </a> */}
-
-                        </div>
-                        <div className="footer-col terms-col">
-                            <ul className="flex flex-wrap">
-                                <li>@ skillance corp.</li>
-                                <li><a href="/assets/docs/Terms_of_Services.pdf" target="_blank">Terms & conditions</a></li>
-                                <li><a> <NavLink to={"/about"} >About us</NavLink></a></li>
-                                <li><a href="/assets/docs/Privacy_Policy.pdf" target="_blank">Privacy Policy</a></li>
-                                <li><a href="/assets/docs/Code_of_Conduct.pdf" target="_blank">Code of Conduct</a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>

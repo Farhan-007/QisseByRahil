@@ -1,20 +1,25 @@
 .Landing-wrapper {
-    padding-top: 200px;
+    padding-top: 120px;
     min-height: 100vh;
     background: linear-gradient(to bottom, #001a28, #001824, #000e17);
     background-size: 100%;
 }
 
-.title-image {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    height: 500px;
-    width: 350px;
+.bg-gray-img {
+    filter: grayscale(100%) blur(100%);
+    object-fit: cover;
+    position: relative;
+    bottom: 0px;
+    height: 300px;
 }
 
-.title-image .grayimg {
-    filter: contrast(120%) grayscale(100%);
+.fg-img {
+    position: absolute;
+    object-fit: cover;
+    top: 10%;
+    bottom: 10%;
+    right: -1rem;
+    overflow: hidden;
 }
 
 .title-image .colimg {
@@ -22,4 +27,26 @@
     right: -2.5rem;
     top: 10%;
     bottom: 10%;
+}
+
+@media (min-width: 768px) {
+    .Landing-wrapper {
+        padding-top: 200px;
+    }
+    .bg-gray-img {
+        filter: contrast(120%) grayscale(100%);
+        object-fit: cover;
+        position: relative;
+        bottom: 0px;
+        height: 500px;
+        width: 350px; 
+    }
+    
+    .fg-img {
+        position: absolute;
+        object-fit: cover;
+        top: 10%;
+        bottom: 10%;
+        right: -2.5rem;
+    }
 }

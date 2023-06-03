@@ -1,7 +1,7 @@
 .contact-btn {
+    border-radius: 100%;
     animation: round 5s linear infinite;
-    border: 5px solid #001a28;
-    border-radius: 50%;
+    border: 5px solid #00000000;
 }
 .contact-btn h1 span {
     /* font: 26px Monaco, MonoSpace; */
@@ -12,6 +12,8 @@
     top: 10px;
     transform-origin: bottom center;
 }
+
+
 
 @keyframes round {
     0%{
