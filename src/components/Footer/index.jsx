@@ -9,7 +9,7 @@ const Footer = () => {
             <footer className="footer flex flex-col items-center justify-center  text-[#7092a1] smallText shadow-2xl px-5">
                 <div className="container max-w-[1200px] flex flex-col gap-5 py-10 border-t-4 border-[#0d3f52]">
                     <div className="flex items-center gap-2 md:gap-5">
-                        <h1 className=" md:text-5xl text-xl">rahilkhan9770027294@gmail.com</h1>
+                        <h1 className=" md:text-5xl text-lg">rahilkhan9770027294@gmail.com</h1>
                         <button className="email-button text-xl md:text-6xl text-[#ff912a] border-2 rounded-[50%] border-[#ff912a] p-2 ">
                             <a className='flex items-center' href="mailto:rahilkhan9770027294@gmail.com">
                                 <ArrowOutwardIcon fontSize='inherit' />

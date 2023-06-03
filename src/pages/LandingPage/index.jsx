@@ -14,7 +14,7 @@ function LandingPage() {
 
     return (
         <>
-            <div className="Landing-wrapper relative md:px-[5rem] px-5">
+            <div className="Landing-wrapper relative md:px-[5rem] px-5 pb-20">
                 <div className=" flex md:flex-row flex-col md:items-start items-center gap-5 ">
 
                     {/* LandingPage */}
