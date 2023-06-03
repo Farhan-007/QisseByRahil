@@ -5,7 +5,7 @@ import "./style.css"
 
 function Exhibition() {
   return (
-    <section className='min-h-[100vh] flex flex-col gap-5 bg-[#032936] text-[#7092a1] md:p-[5rem] px-5'>
+    <section className='min-h-[100vh] flex flex-col gap-5 bg-[#032936] text-[#7092a1] md:p-[5rem] p-5'>
       <div className="flex items-end text-section">
         <div className="flex flex-col gap-5">
           <h1 className="md:text-5xl text-3xl">Exhibitions</h1>
