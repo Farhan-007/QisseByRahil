@@ -12,12 +12,19 @@ function ImageCarousel() {
                     {
                         Images.map((item, key) => {
                             return (
-                                <span key={key} className="border-4 border-[#0d3f52] min-w-max ">
-                                    <img className=' grayscale contrast-150 transition-[2s] h-[400px] aspect-[3/4] object-cover' src={item.src} alt="" />
-                                </span>
+                                <>
+                                    <span key={key} className="">
+                                        {/* <img src={item.src} alt="" className="" /> */}
+                                    </span>
+                                </>
                             )
                         })
                     }
+
+
+                    {/* <span key={key} className="border-4 border-[#0d3f52] min-w-max ">
+                        <img className=' grayscale contrast-150 transition-[2s] h-[400px] aspect-[3/4] object-cover' src={item.src} alt="" />
+                    </span> */}
 
                     {/* <span className="border-4 border-[#0d3f52] min-w-max ">
                         <img className=' grayscale contrast-150 hover:cursor-[url(src/assets/download.jfif)] transition-[2s] h-[400px] aspect-[3/4] object-cover' src="src/assets/download.jfif" alt="" />

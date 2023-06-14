@@ -2,7 +2,7 @@ import React from 'react'
 import { useRef } from 'react';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ImageCarousel from './ImageCarousel';
-import Images from "../../json/galleryImages.json"
+import Images from "../../json/exhibIMG.json"
 import { useState } from 'react';
 
 function MyGallery() {
