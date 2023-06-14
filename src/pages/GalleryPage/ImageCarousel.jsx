@@ -1,5 +1,5 @@
 import React from 'react'
-import Images from "../../json/galleryImages.json"
+import Images from "../../json/exhibIMG.json"
 
 
 function ImageCarousel() {
@@ -12,8 +12,8 @@ function ImageCarousel() {
                     {
                         Images.map((item, key) => {
                             return (
-                                <span className="border-4 border-[#0d3f52] min-w-max ">
-                                    <img className=' grayscale contrast-150 hover:cursor-[url(src/assets/download.jfif)] transition-[2s] h-[400px] aspect-[3/4] object-cover' src={item.src} alt="" />
+                                <span key={key} className="border-4 border-[#0d3f52] min-w-max ">
+                                    <img className=' grayscale contrast-150 transition-[2s] h-[400px] aspect-[3/4] object-cover' src={item.src} alt="" />
                                 </span>
                             )
                         })

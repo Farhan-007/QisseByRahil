@@ -15,7 +15,3 @@
 *::-webkit-scrollbar {
   display: none;
 }
-
-.cursorImage {
-  cursor: url ('src/assets/download.png'), auto;
-}
